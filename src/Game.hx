@@ -28,6 +28,8 @@ class Game extends Process {
 		hud = new ui.Hud();
 
 		trace(Lang.t._("Game is ready."));
+
+		new en.Hero(5,5);
 	}
 
 	public function onCdbReload() {
